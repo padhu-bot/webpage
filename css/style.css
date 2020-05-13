@@ -1,0 +1,126 @@
+
+body{
+  background-color: #ecfbfc;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  margin: 0;
+}
+h1{
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #eb6383;
+}
+h2{
+  font-family: 'PT Serif', serif;
+  font-size: 2.5rem;
+  color: #eb6383;
+  font-weight: normal;
+}
+h3{
+  font-family: 'PT Serif', serif;
+  color: #fa9191;
+}
+a{
+  text-decoration: none;
+  color: #eb6383;
+}
+a:hover{
+  color: #58b4ae;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-width:5px;
+  width:5%;
+  border-color:#58b4ae;
+}
+.cnt{
+  width: 50%;
+  margin: 40px auto 60px auto;
+}
+.profile{
+  color: #40514E;
+}
+.top{
+  padding-top:100px;
+  position: relative;
+  background-color: #ffebd9;
+}
+.bottom-container{
+   background-color: #ffebd9;
+}
+.me{
+  width:150px;
+  height: auto;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-pic1{
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+.skill-pic2{
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+.skill-pic3{
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+.last{
+  font-size: 0.75rem;
+  color: #888888;
+  padding: 10px;
+  }
+
+#top-cloud{
+  position: absolute;
+  right: 200px;
+  top:50px;
+}
+#bottom-cloud{
+  position: absolute;
+  left:200px;
+  bottom: 300px;
+}
+.footer-link{
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  margin:60px auto 10px auto;
+}
+.btn{
+  box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	background-color:#fc8d83;
+	border-radius:10px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+  margin-bottom: 30px;
+}
+.btn:hover{
+  background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	background-color:#e4685d;
+}
+.btn:active{
+	position:relative;
+	top:1px;
+}
